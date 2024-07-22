@@ -109,7 +109,7 @@
 
             <h1>Sign In</h1>
 
-            <form>
+            <form id="myform">
 
                 <div class="input-field">
                     <i class="fa-solid fa-circle"></i>
@@ -132,7 +132,11 @@
                 </div>
 
                 <div class="submit">
-                    <input type="button" value="SIGN UP">
+                    <input type="button" value="SIGN UP" id="filled" onclick="document.getElementById('success-alert').style.display = 'block'">
+                </div>
+                
+                <div class="alert alert-success" role="alert" id="success-alert">
+                    You have successfully Signed In <a href="MLB.html" class="alert-link">Go Back Home</a>. 
                 </div>
 
                 <br>
