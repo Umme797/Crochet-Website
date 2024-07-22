@@ -166,6 +166,11 @@ a {
   padding: 20px;
 }
 
+#success-alert {
+  margin: 10px;
+  display: none;
+}
+
 h1 {
   color: #333;
   font-size: 24px;
