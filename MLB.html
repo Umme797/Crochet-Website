@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title-->
+    <title>Document</title>
+
+    <!--Icons API-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--BS CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="MLB.css">
+
+</head>
+
+<body>
+
+
+
+    <!--NAV BAR-->
+    <header>
+
+
+        <div class="navbar">
+
+
+            <div class="nav-logo">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <img src="BM2.png" alt="Logo" width="40px" height="40px">
+                </a>
+            </div>
+
+
+            <div class="nav-search">
+                <input placeholder="Search" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+
+            <div class="nav-pattern">
+                <a href="#">Patterns</a>
+            </div>
+
+
+            <div class="nav-signin">
+                <a href="Sign In.html">
+                    Sign In
+                </a>
+            </div>
+
+
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="#">Cart</a>
+            </div>
+
+
+            <div class="nav-menubar hidden">
+                <i class="fa-solid fa-bars">
+                    <div class="nav-dropdown">
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Patterns</a></li>
+                            <li><a class="dropdown-item" href="#">Sign In</a></li>
+                            <li><a class="dropdown-item" href="#">Cart</a></li>
+                        </ul>
+                    </div>
+                </i>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+
+
+    <!--CAROUSEL-->
+    <div id="carouselExampleCaptions" id="carouselExampleFade" class="carousel slide carousel-fade">
+
+        <!--INDICATORS-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <!--CAROUSEL INNER-->
+        <div class="carousel-inner">
+
+            <!--TILE 1-->
+            <div class="carousel-item active">
+                <img src="Random Piece 2.jpeg" class="d-block w-100" alt="Random Piece">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to</h5>
+                    <h1><strong>Mun Light Blues</strong></h1>
+                </div>
+            </div>
+
+            <!--TILE 2-->
+            <div class="carousel-item">
+                <img src="Keychains.jpeg" class="d-block w-100" alt="Keychains">
+            </div>
+
+            <!--TILE 3-->
+            <div class="carousel-item">
+                <img src="13.png" class="d-block w-100" alt="Keychains">
+            </div>
+
+        </div>
+
+        <!--PREV BUTTON-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <!--NEXT BUTTON-->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+
+
+    <br><br>
+
+
+
+    <!--CARDS-->
+    <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4">
+
+        <!--TILE 1-->
+        <div class="col">
+
+            <div class="card">
+
+                <img src="Strawberry pouch.png" class="card-img-top" alt="Strawberry pouch">
+                <div class="card-body">
+                    <h6 class="card-title">Small Strawberry Pouch</h6>
+                    <h6 class="card-text">
+                        Rs. 100
+                    </h6>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--TILE 2-->
+        <div class="col">
+
+            <div class="card">
+
+                <img src="Spooky Keychains.png" class="card-img-top" alt="Spooky Keychain">
+                <div class="card-body">
+                    <h6 class="card-title">Spooky Keychains</h6>
+                    <h6 class="card-text">
+                        Rs. 80
+                    </h6>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--TILE 3-->
+        <div class="col">
+
+            <div class="card">
+
+                <img src="19.png" class="card-img-top" alt="Bag">
+                <div class="card-body">
+                    <h6 class="card-title">Bag</h6>
+                    <h6 class="card-text">
+                        Rs. 500
+                    </h6>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--TILE 4-->
+        <div class="col">
+
+            <div class="card">
+
+                <img src="Lavendar Pouch.png" class="card-img-top" alt="Lavendar Pouch">
+                <div class="card-body">
+                    <h6 class="card-title">Lavendar Pouch</h6>
+                    <h6 class="card-text">
+                        Rs. 100
+                    </h6>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--TILE 5-->
+        <div class="col">
+
+            <div class="card">
+
+                <img src="Dolphin Keychain.png" class="card-img-top" alt="Dolphin Keychain">
+                <div class="card-body">
+                    <h6 class="card-title">Dolphin Keychain</h6>
+                    <h6 class="card-text">
+                        Rs. 40
+                    </h6>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--TILE 6-->
+        <div class="col">
+
+            <div class="card">
+
+                <img src="Carrot Pouch.png" class="card-img-top" alt="Carrot Pouch">
+                <div class="card-body">
+                    <h6 class="card-title">Carrot Pouch</h6>
+                    <h6 class="card-text">
+                        Rs. 100
+                    </h6>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <br><br>
+
+
+
+    <!--FOOTER-->
+    <div>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+
+            <p class="col-md-3 mb-0 text-body-secondary">&copy; 2024 Company, Inc</p>
+
+            <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="nav col-md-3 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Patterns</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sign In</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+
+        </footer>
+
+    </div>
+
+
+
+    <!--BS JS Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+
+
+</body>
+
+</html>
